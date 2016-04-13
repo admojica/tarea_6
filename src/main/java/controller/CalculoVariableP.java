@@ -120,11 +120,11 @@ public class CalculoVariableP
      * @return una variable tipo double
      * @since incluido desde la version 1.0
     */
-    public BigDecimal getResultado(String a, String b, BigDecimal xa)
+    public BigDecimal getResultado(String a, String b)
     {
         BigDecimal variable_p = new BigDecimal(a);
         BigDecimal variable_dof = new BigDecimal(b);
-        BigDecimal valor_x = validarResultado(variable_p, variable_dof).add(xa);
+        BigDecimal valor_x = validarResultado(variable_p, variable_dof);
         return valor_x;
     }    
 }
