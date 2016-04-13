@@ -24,10 +24,10 @@ public final class Reporte
         CalculoVariableP calculo_p_2 = new CalculoVariableP();
         CalculoVariableP calculo_p_3 = new CalculoVariableP();        
         
-        reporte = "<table style='width:400px;border:1px solid black;'><tr><td>x</td><td>dof</td><td>p - expected</td><td>p - actual</td></tr>";
-        reporte += "<tr><td>0 to x=1.1</td><td>9</td><td>0.35006</td><td>" + calculo_p_1.getResultado("0.2","6") + "</td></tr>";
-        reporte += "<tr><td>0 to x=1.1812</td><td>10</td><td>0.36757</td><td>" + calculo_p_2.getResultado("0.45","15") + "</td></tr>";
-        reporte += "<tr><td>0 to x=2.750</td><td>30</td><td>0.49500</td><td>" + calculo_p_3.getResultado("0.495","4") + "</td></tr>";
+        reporte = "<table style='width:400px;border:1px solid black;'><tr><td>p</td><td>dof</td><td>x</td></tr>";
+        reporte += "<tr><td>0.2</td><td>5</td><td>" + calculo_p_1.getResultado("0.2","6") + "</td></tr>";
+        reporte += "<tr><td>0.45</td><td>15</td><td>" + calculo_p_2.getResultado("0.45","15") + "</td></tr>";
+        reporte += "<tr><td>0.495</td><td>4</td><td>" + calculo_p_3.getResultado("0.495","4") + "</td></tr>";
         reporte += "</table>";
     }
         

@@ -1,16 +1,16 @@
-Repositorio para la tarea 5 de Conceptos avanzados de Ingeniería de Software
+Repositorio para la tarea 6 de Conceptos avanzados de Ingeniería de Software
 
 # Visualización en el navegador
 
-1. Puede visualizar la aplicación en el navegador directamente sin desplegarla en Heroku accediendo al siguiente link en su navegador: https://tarea-5-david-mojica.herokuapp.com/
+1. Puede visualizar la aplicación en el navegador directamente sin desplegarla en Heroku accediendo al siguiente link en su navegador: https://tarea-6-david-mojica.herokuapp.com/
 
 # Desplegar en Heroku
 # Proceso de instalación
 
 1. Abra el terminal o la ventana de comandos de su sistema operativo.
 2. Ubíquese sobre la carpeta en la que va a clonar el repositorio. (Ejemplo: cd /Users/David/Git)
-3. Escriba el siguiente comando: git clone https://github.com/admojica/tarea_5.git
-4. Se creará una carpeta denominada tarea_5, acceda a la carpeta por linea de comandos de la siguiente manera: cd tarea_5.
+3. Escriba el siguiente comando: git clone https://github.com/admojica/tarea_6.git
+4. Se creará una carpeta denominada tarea_6, acceda a la carpeta por linea de comandos de la siguiente manera: cd tarea_6.
 
 # Creación y despliegue de la aplicación en Heroku
 
