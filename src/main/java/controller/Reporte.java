@@ -6,6 +6,8 @@
 */
 package controller;
 
+import java.math.BigDecimal;
+
 /**
  * @author David Mojica
  * @version 1.0 6 de Abril de 2016
@@ -25,9 +27,9 @@ public final class Reporte
         CalculoVariableP calculo_p_3 = new CalculoVariableP();        
         
         reporte = "<table style='width:400px;border:1px solid black;'><tr><td>p</td><td>dof</td><td>x</td></tr>";
-        reporte += "<tr><td>0.2</td><td>5</td><td>" + calculo_p_1.getResultado("0.2","6") + "</td></tr>";
-        reporte += "<tr><td>0.45</td><td>15</td><td>" + calculo_p_2.getResultado("0.45","15") + "</td></tr>";
-        reporte += "<tr><td>0.495</td><td>4</td><td>" + calculo_p_3.getResultado("0.495","4") + "</td></tr>";
+        reporte += "<tr><td>0.2</td><td>5</td><td>" + calculo_p_1.getResultado("0.2","6", new BigDecimal(0.00001)) + "</td></tr>";
+        reporte += "<tr><td>0.45</td><td>15</td><td>" + calculo_p_2.getResultado("0.45","15", new BigDecimal(0.00005)) + "</td></tr>";
+        reporte += "<tr><td>0.495</td><td>4</td><td>" + calculo_p_3.getResultado("0.495","4", new BigDecimal(-0.0200)) + "</td></tr>";
         reporte += "</table>";
     }
         
