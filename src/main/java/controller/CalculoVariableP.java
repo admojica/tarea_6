@@ -21,7 +21,7 @@ public class CalculoVariableP
      * Método que inicializa los objetos de la clase distribucion
      * @param x
      * @param dof
-     * @return El resultado de la distribucion simpson
+     * @return BigDecimal El resultado de la distribucion simpson
      * @since incluido desde la version 1.0
     */
     public BigDecimal obtenerDistribucion(double x, double dof)
@@ -32,11 +32,11 @@ public class CalculoVariableP
     }
     
     /**
-     * Método para validar el resultado y recalcular el valor de x hasta
+     * Método para validar el resultado y recalcular el valor de x hasta 
      * obtener el valor correcto de p
      * @param p
      * @param dof_calculo
-     * @return 
+     * @return BigDecimal del valor de x obtenido a partir de p y los grados de libertad
      * @since incluido desde la version 1.0
     */
     public BigDecimal validarResultado(BigDecimal p, BigDecimal dof_calculo)
@@ -100,7 +100,7 @@ public class CalculoVariableP
      * Método que retorna el error entre dos variables
      * @param valor_esperado
      * @param valor_obtenido
-     * @return una variable tipo double
+     * @return BigDecimal del valor del error
      * @since incluido desde la version 1.0
     */
     public BigDecimal calcularError(BigDecimal valor_esperado, BigDecimal valor_obtenido)
@@ -114,10 +114,10 @@ public class CalculoVariableP
     }
     
     /**
-     * Método que retorna el resultado obtenido a través de esta clase
+     * Método que retorna el resultado de x de la distribución t
      * @param a
      * @param b
-     * @return una variable tipo double
+     * @return BigDecimal del valor de x
      * @since incluido desde la version 1.0
     */
     public BigDecimal getResultado(String a, String b)

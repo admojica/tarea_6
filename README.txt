@@ -26,7 +26,7 @@ Repositorio para la tarea 6 de Conceptos avanzados de Ingeniería de Software
 # Ejecutar el programa localmente
 
 1. Para ejecutar el proyecto localmente, es necesario desplegarlo en maven y ejecutarlo posteriormente, para esto ejecute el siguiente comando: mvm clean install.
-2. Al ejecutar el comando se crea la carpeta target en la carpeta tarea_5 que se creo al bajar el repositorio; además se puede ver el resultado de los test de JUnit en consola.
+2. Al ejecutar el comando se crea la carpeta target en la carpeta tarea_6 que se creo al bajar el repositorio; además se puede ver el resultado de los test de JUnit en consola.
 3. Para ejecutar el programa localmente ejecute en la consola o el terminal: heroku local web
 4. Una vez ejecutado el comando diríjase a su navegador y escriba en la barra de direcciones: localhost:5000
 5. Presione enter y aparecerán los resultados del programa.

@@ -34,7 +34,7 @@ public final class Reporte
     }
         
     /**
-     * Método que devuelve el reporte
+     * Método que devuelve el reporte en forma de tabla html
      * @since incluido desde la version 1.0
     */
     public String getReporte()
